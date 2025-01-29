@@ -16,8 +16,10 @@ export default function CartPage() {
           { label: "Cart", href: "/cart" },
         ]}
       />
-      <h1 className="text-3xl font-bold mt-8 mb-6">Your Cart</h1>
-      <CartContents />
+      <div className="mt-8 glassmorphic p-6 rounded-lg">
+        <h1 className="text-3xl font-bold mb-6">Your Cart</h1>
+        <CartContents />
+      </div>
     </div>
   )
 }

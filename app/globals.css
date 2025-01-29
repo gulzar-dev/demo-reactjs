@@ -89,6 +89,16 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-offWhite text-darkBlue;
+  }
+}
+
+@layer components {
+  .neumorphic {
+    @apply bg-offWhite shadow-[5px_5px_15px_#d1d1d1,-5px_-5px_15px_#ffffff];
+  }
+
+  .glassmorphic {
+    @apply bg-offWhite/30 backdrop-blur-md border border-offWhite/20 shadow-lg;
   }
 }
